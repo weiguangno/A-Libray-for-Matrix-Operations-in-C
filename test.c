@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include<time.h>
 #include"interface.h"
-#define delete(x) (deleteMatrix(x),x=NULL)
+#define deleteMatrix(x) (deleteMatrix(x),x=NULL)
 
 int main(){
     Matrix* pmatrix1 = createMatrix(3,4);
